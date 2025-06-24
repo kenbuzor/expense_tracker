@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       darkTheme: ThemeData.dark().copyWith(
         colorScheme: kDarkColorScheme,
-        cardTheme: const CardTheme().copyWith(
+        cardTheme: const CardThemeData().copyWith(
           color: kDarkColorScheme.secondaryContainer,
           margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
         ),
@@ -40,7 +40,7 @@ class MyApp extends StatelessWidget {
           backgroundColor: kColorScheme.onPrimaryContainer,
           foregroundColor: kColorScheme.primaryContainer,
         ),
-        cardTheme: const CardTheme().copyWith(
+        cardTheme: const CardThemeData().copyWith(
           color: kColorScheme.secondaryContainer,
           margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
         ),
